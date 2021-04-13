@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  },
+  "name": "virgobot",
+  "version": "1.0.0",
+  "main": "Main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vicen621",
+  "license": "ISC",
+  "description": ""
+}
