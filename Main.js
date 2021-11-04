@@ -26,7 +26,9 @@ client.on('message', message => {
 
     if (command === 'q' || command === 'que' || command === 'que?' || command === '¿que?'){
         client.commands.get('que').execute(message);
-    }else if (command === '!ping') {
+    } else if (command === '11' || command == 'once' || command === 'honce') {
+        client.commands.get('once').execute(message);
+    } else if (command === '!ping') {
         client.commands.get('ping').execute(message);
     } else if (command === '!hola'){
         client.commands.get('hola').execute(message);
